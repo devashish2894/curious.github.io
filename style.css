@@ -1,0 +1,647 @@
+*{margin:0;padding: 0;box-sizing: border-box;font-family: Montserrat;}
+a{
+    margin: 0;padding: 0; text-decoration: none;
+}
+
+
+.first{
+    width: 100%;
+    height: 100vh;
+    
+   
+    
+}
+
+.header{
+    width: 100%;
+    height: 3rem;
+    
+    display: flex;
+    position: absolute;
+    
+}
+.contain1{
+    width: 100%;
+    height: 100vh;
+    
+}
+.logo{
+    margin-left: 1rem;
+    
+    
+}
+
+.logo img{
+    height: 5rem;
+    
+
+}
+nav{
+    margin-right: auto;
+    margin-left: 4rem;
+    font-size: 18px;
+    
+   
+}
+
+nav Ul{
+  
+    
+    list-style: none;
+    
+    margin-top: 20px;
+   
+}
+nav ul li {
+    float: left;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.heroimage{
+    width: 600px;
+    height: 100vh;
+    
+    position: absolute;
+    top:0;
+    right: 0;
+    overflow: hidden;
+
+}
+
+.back img{
+    height: 44rem;
+    margin-left: 2rem;
+}
+.pic img{
+    position: absolute;
+    top: 69px;
+    left: 4px;
+    height: 41rem;
+}
+
+.content{
+    position: absolute;
+    top:15rem;
+    left: 8rem;
+    
+    width:500px;
+    height: 283px;
+    
+}
+.content p {
+    font-size: 25px;
+
+}
+
+.one{
+    width: 145px;
+    height:51px;
+    background-color: #FF5FA2;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.two{
+    height: 76px;
+    width: 490px;
+    margin-top: 106px;
+    margin-left:4px ;
+    font-size: 36px;
+    background-color: #FF5FA2;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    color: white;
+    cursor: pointer;
+}
+
+.two:before{
+    content: '';
+    background: url(img/paws.png);
+   
+    position: absolute;
+    height: 56px;
+    width: 56px;
+    top: 10px;
+    right: 49px;
+    z-index: 102;
+}
+
+
+.second{
+    width: 100%;
+    height:70vh;
+  
+    margin-top: 100px;
+}
+.headcon{
+    
+    padding-left: 20px;
+}
+.headcon h1{
+    font-size: 32px;
+    
+}
+.headcon p{
+    font-size: 24px;
+    margin-top: 6px;
+    
+}
+.container2{
+    width: 100%;
+    height:60vh;
+   
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+   
+}
+.card{
+    width: 304px;
+    height: 419px;
+    background-color: #F5F5F5;
+    margin-right: 60px;
+    margin-bottom: 15px;
+}
+
+.card img{
+    width: 100%;
+}
+.contcon{
+    text-align: center;
+}
+.contcon h3{
+    font-weight: 100;
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+
+.contcon p a{
+    font-size: 16px;
+    color: black;
+    text-decoration: underline;
+    
+}
+    
+
+.third{
+    width: 100%;
+    height: 110vh;
+    
+    margin-top: 100px;
+    padding-top: 20px;
+    
+}
+.third h1{
+    font-size: 32px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container3{
+    width: 100%;
+    height: 105vh;
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+
+}
+
+.leftcon{
+    flex-basis: 60%;
+    height: 105vh;
+   
+    overflow: hidden;
+    position: relative;
+}
+ 
+
+.leftcon img{
+
+height: 785px;
+margin-left: -121px;
+}
+
+.foreground img{
+    position: absolute;
+    z-index: 3;
+    top: 119px;
+    left: 131px;
+    height: 564px;
+}
+
+.rightcon{
+    flex-basis: 40%;
+    
+    
+    overflow: hidden;
+    
+}
+.displayitems{
+    width: 323px;
+    height: 300px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 97px;
+}
+.items{
+    
+    position: relative;
+    width: 122px;
+    height: 100px;
+}
+.items2{
+    
+    position: relative;
+    width: 122px;
+    height: 100px;
+}
+
+.items3{
+   
+    position: relative;
+    width: 122px;
+    height: 100px;
+}
+
+
+.items4{
+   
+    position: relative;
+    width: 122px;
+    height: 100px;
+
+}
+.items img{
+    height: 68px;
+    margin-top: 20px;
+   
+}
+
+.items2 img{
+    height: 68px;
+    margin-top: 20px;
+   margin-left: -10px
+}
+
+
+.items3 img{
+    height: 68px;
+    margin-top: 20px;
+   
+}
+
+
+.items4 img{
+    height: 68px;
+    margin-top: 20px;
+   
+}
+
+.circle{
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    z-index:-1 ;
+}
+
+
+
+
+
+
+
+.fourth{
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    padding-top:20px ;
+    
+    
+   
+}
+.fourth h1{
+    font-size: 32px;
+    
+    margin-left: 20px;
+    
+
+}
+.rowA{
+    width: 100%;
+    height: 94vh;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.lef{
+    flex-basis: 30%;
+    text-align: left;
+   margin-left: 77px;
+}
+.lef p{
+    font-size: 25px;
+}
+.button4{
+  
+    margin-top: 40px;
+    position: relative;
+}
+.four{
+    height: 76px;
+    width: 490px;
+    
+    margin-left:4px ;
+    font-size: 36px;
+    background-color: #FF5FA2;
+    border-radius: 10px;
+    border: none;
+    
+    color: white;
+    cursor: pointer;
+
+}
+.paw2 img{
+    position: absolute;
+    right: 55px;
+    top: 10px;
+}
+
+
+.button3{
+    margin-top: 40px;
+    margin-left: 20px;
+    position: relative;
+   
+    width: 490px;
+}
+
+.threee{
+    height: 76px;
+    width: 490px;
+    
+    margin-left:4px ;
+    font-size: 36px;
+    background-color: #FF5FA2;
+    border-radius: 10px;
+    border: none;
+    
+    color: white;
+    cursor: pointer;
+
+}
+
+.paws3 img{
+    position: absolute;
+    right: 55px;
+    top: 10px;
+
+}
+
+.righ{
+    flex-basis: 70%;
+    
+
+}
+.vectorbox{
+    
+    padding: 10px 10px;
+    width: 680px;
+    position: relative;
+    right:-268px;
+    top:0;
+    overflow: hidden;
+}
+.vectorbox img{
+    height:658px;
+    margin-left: 150px;
+}
+
+.trainer {
+    position: absolute;
+    top: 102px;
+    right: 6px;
+    
+
+}
+.trainer img{
+    height: 466px;
+}
+
+
+.fifth{
+    height: 100vh;
+    width: 100%;
+  
+    margin-top: 15px;
+}
+.fifth p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.fifth h1{
+    font-size: 32px;
+    margin-left: 20px;
+}
+.row{
+    width: 100%;
+    height: 90vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col1{
+    flex-basis: 50%;
+   
+}
+.col1 img{
+    height:635px;
+}
+.col2{
+    flex-basis:50% ;
+    
+    padding-left: 80px;
+    padding-top: 50px;
+}
+form{
+    margin-left: 40px;
+    height: 500px;
+    
+}
+form label{
+    
+    font-size: 18px;
+    
+   
+}
+
+form .bar ,select{
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    border: 0.5px solid black;
+}
+
+.buttonbox{
+    
+    height: 55px;
+    
+    width: 50%;
+    position: relative;
+    
+}
+
+
+
+.formbut{
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    background-color: #FF5FA2;
+    border-radius: 5px;
+    border: none;
+    color: white;
+   
+    font-size: 18px;
+    cursor: pointer;
+   
+
+}
+.paws img{
+    position: absolute;
+    top:23px;
+    right: 43px;
+    height: 30px;
+}
+
+
+.sixth{
+    width:100%;
+    height: 100vh;
+    
+    margin-top: 15px;
+}
+
+.sixth h1{
+    margin-left: 20px;
+    font-size: 32px;
+    
+}
+
+.row2{
+    width: 100%;
+    height:95vh;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seca {
+    flex-basis: 30%;
+   
+   text-align: left;
+   margin-left: 77px;
+}
+
+.seca p{
+    font-size: 25px;
+}
+.seca ul{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.seca ul li{
+    float: left;
+   list-style: none;
+   margin-right: 40px;
+}
+
+.seca ul li img{
+    height: 44px;
+}
+
+
+
+.sixxth{
+    height: 76px;
+    width: 490px;
+    margin-top: 40px;
+    margin-left:4px ;
+    font-size: 36px;
+    background-color: #FF5FA2;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    color: white;
+    cursor: pointer;
+}
+
+.button6{
+    position: relative;
+    
+    
+    
+}
+.paw img{
+    position: absolute;
+    top: 99px;
+    right: 55px;
+}
+
+.secb{
+    flex-basis: 70%;
+    
+    padding-left: 480px;
+   
+    
+}
+
+    
+   
+
+
+.mob img{
+    height: 562px;
+}
+
+.cat img{
+    height: 143px;
+    position: relative;
+    top: 22px;
+    right: -85px;
+}
+footer{
+    background-color: #FF5FA2;
+    text-align: center;
+    color: white;
+}
+footer h3{
+    font-weight: 100;
+    margin-bottom:10px ;
+}
